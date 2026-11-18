@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+    <link rel="stylesheet" href="inputs.css">
+</head>
+<body>
+
+<div>
+<label for="nummers">Nummers 1-100 </label> 
+<input type="number" id="nummers" name="tentacles" min="1" max="100"  placeholder="1-100"/>   
+</div>
+
+<div>
+<label for="pass">Password (6 characters minimum):</label>
+<input type="password" id="pass" name="password" minlength="6" required placeholder="password"/>
+</div>
+
+<fieldset>
+  <legend>Select a color:</legend>
+
+  <div>
+    <input type="radio" id="red" name="blue" value="yellow" checked />
+    <label for="red">red</label>
+  </div>
+
+  <div>
+    <input type="radio" id="red" name="blue" value="yellow" />
+    <label for="blue">blue</label>
+  </div>
+
+  <div>
+    <input type="radio" id="red" name="blue" value="yellow" />
+    <label for="yellow">yellow</label>
+  </div>
+</fieldset>
+
+</body>
+</html>
